@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 3rem;
+    color: crimson;
+    border-bottom: none;
+    margin: 40px;
+    text-align: center;
+
+}
+@media screen and (min-width 700px){
+    body{
+        background-color: chocolate;
+    }
+}
+/*Esta media se activa cuando la pantalla sobrepasa los 700 pixeles de ancho*/
+@media screen and (min-width:400px), (max-width:700px) {
+    .title {
+        background: #000;
+        color: #fff;
+    }
+}
+/*esta media se activa cuando la pantalla se activa en un rango apartir de los 400 pixeles a los 700 piexeles de ancho*/
+
+@media screen and (max-w1ath:60px) {
+     .title {
+        text-align: left;
+        background: steelblue;
+     }
+}
+/* esta media se activa cuando se activa la ventana para imprimir la web*/
+
+@media screen and (max-w1ath:60px) {
+     .title {
+        text-align: left;
+        background: steelblue;
+     }
+}
